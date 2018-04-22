@@ -66,7 +66,7 @@ reshape(t, [-1]) ==> [1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6]
 
   ​
 
-![WechatIMG223](/Users/Joel/Dropbox/DTNotebook/imgs/WechatIMG223.jpeg)
+![WechatIMG223](imgs/WechatIMG223.jpeg)
 
 
 
