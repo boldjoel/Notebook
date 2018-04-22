@@ -1,4 +1,16 @@
+**Variable 和 constant**
+
+**使用 Variable**
+
+```
+state = tf.Variable(0, name='counter')
+init = tf.global_variables_initializer()
+```
+
+在 TF中设定变量必须用上面的 init 进行初始化， 但是init 这操作要在 sess.run(init)才会被激活
+
 **初始化Tensor**
+
 ```
 a=tf.constant(2) 
 ```
@@ -15,7 +27,7 @@ with tf.Session() as sess:
 
 **Placeholder**
 
-TensorFlow's feed mechanism lets you inject data into any Tensor in a computation graph
+TensorFlow's feed mechanism lets you inject data into any Tensor in a computation graph. 值被放在feed_dict={}并且意义对应
 
 ```
 a = tf.placeholder(tf.int16)
